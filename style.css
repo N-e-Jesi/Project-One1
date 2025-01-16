@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.buton{
+    gap: 10px;
+}
+.btn1{
+    font-size: 22px;
+    padding: 11px 28px;
+    border-radius: 28px;
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+.btn2{
+    font-size: 22px;
+    padding: 11px 28px;
+    border-radius: 28px;
+    border: none;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+.btn1:hover{
+    background-color: green;
+    color: white;
+}
+.btn2:hover{
+    background-color: darkred;
+    color: white;
+}
+.para p:hover{
+    text-decoration: underline;
+}
+
+.background{
+    background-image: url('Rectangle1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.offer{
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 750px;
+}
+.offer1{
+    margin: 24px;
+    font-size: 24px;
+}
+.input{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.input select, .offer input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.offer button{
+    background-color: skyblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.offer input[type="text"]{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+.offer button:hover{
+    background-color: darkorange;
+    color: white;
+}
+.whybutton{
+    position: absolute;
+    bottom: 20px;
+    border: 1px solid #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+}
+.whybutton:hover{
+    background-color: #ccc;
+    color: black;
+}
+.ib{
+    display: flex;
+    gap: 4px;
+}
+.sl{
+    background-color: #ECECEC;
+    color: black;
+    font-weight: bold;
+}
+
+.buysell{
+    background-color: #FDE24F;
+}
+.inner{
+    padding: 20px;
+    gap: 10px;
+}
+.head{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.imga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bs{
+    object-fit: cover;
+}
+
+.feature{
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+.feature h2{
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 10px;
+}
+.feature-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.feature-column{
+    max-width: 300px;
+    text-align: center;
+}
+.feature-column img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.feature-column h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.feature-column p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+.feature-column a{
+    font-size: 14px;
+    text-decoration: none;
+}
+.feature-column a:hover{
+    text-decoration: underline;
+}
+.butfeat{
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.butfeat:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+.offer-section{
+    padding: 40px 20px;
+    text-align: center;
+}
+.offer-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.offer-column{
+    max-width: 300px;
+    width: 100%;
+}
+.offer-column h2{
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.offer-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.offer-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.offer-details img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.offer-card span{
+    font-size: 14px;
+}
+.bsoffer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.bsoffer:hover{
+    background-color: darkorange;
+}
+
+.container{
+    text-align: center;
+    background-color: #CFBAFF;
+}
+.container h1{
+    font-size: 75px;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-weight: 500;
+    line-height: 97.55px;
+}
+.signup{
+    padding: 20px;
+}
+#signup{
+    /*background-color: black;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;*/
+    background-color: #000; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#signup:hover{
+    background-color: darkorange;
+}
+
+.footer-content{
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+}
+.footer-column{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-part{
+    flex: 1;
+    max-width: 200px;
+    margin: 10px;
+}
+.footer-logo{
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+.footer-part h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer-part div p{
+    font-size: 14px;
+    margin: 5px;
+    font-weight: bold;
+}
+.footer-part div p:hover{
+    text-decoration: underline;
+}
+.footer-copy{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/*Responsive for mobile*/
+
+@media(max-width:480px){
+    /*Navbar*/
+    #navbar img{
+        max-width: 100px;
+    }
+    #navbar{
+        padding: 10px;
+        gap: 6px;
+        flex-direction: row;
+    }
+    .para p{
+        font-size: 10px;
+
+    }
+    .btn1, .btn2{
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+}
